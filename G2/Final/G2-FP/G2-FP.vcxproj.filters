@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include=".txt" />
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="050915359321884.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="050915640621887.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Armor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BackGround.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZBAK.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZBR1.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZBRA.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZCO1.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZCOB.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZCOD.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZCOM.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZCOT.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZCUE.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZCUR.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZGUA.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZHER01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZHER02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZHER03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZHO1.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZHOM.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZLA1.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZPIE.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ERZROD.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Evil castle_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Evil castle_02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Evil castle_03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Evil hammer_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Evil knight_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Evil Mage_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Evil peon_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Fireball_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FR1METAL.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FR1METAM.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FR1OPAMT.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FREDER01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FREDER02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FREDER03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Good castle_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Good castle_02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Good castle_03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Good knight_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Good mage_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Good peon_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Good sword_01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="thumb_ERZHER01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="thumb_FREDER01.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AIs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="KnightX.FBX" />
+    <None Include="KnightX.X" />
+    <None Include="KX.X" />
+    <None Include="KX2.X" />
+    <None Include="Sound.xap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Song.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

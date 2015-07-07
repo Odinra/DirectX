@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<varlist name="Settings">
+	<varlist name="MapViewOptions">
+		<varlist name="HF">
+			<string name="IndexedPalette">Monochrome</string>
+		</varlist>
+		<varlist name="WS">
+			<string name="IndexedPalette">Thermal</string>
+		</varlist>
+		<varlist name="SH">
+			<string name="IndexedPalette">InverseBoolean</string>
+		</varlist>
+	</varlist>
+	<varlist name="HF">
+		<float name="HorizScale">10</float>
+		<int name="nx">512</int>
+		<int name="ny">512</int>
+	</varlist>
+	<varlist name="AM">
+		<string name="Climate">Temperate</string>
+	</varlist>
+	<varlist name="Ops">
+		<bool name="GenAM">true</bool>
+		<bool name="GenTN">true</bool>
+		<bool name="GenLM">true</bool>
+		<bool name="GenTX">true</bool>
+	</varlist>
+	<varlist name="CalcTimers">
+		<varlist name="AM">
+			<float name="GenMap">1.107</float>
+		</varlist>
+		<varlist name="TN">
+			<float name="GenMap">0.125</float>
+		</varlist>
+		<varlist name="LM">
+			<float name="CastShadows">0.187</float>
+			<float name="CalcLighting">0.109</float>
+		</varlist>
+		<varlist name="TX">
+			<float name="GenMap">0.936</float>
+		</varlist>
+	</varlist>
+	<varlist name="LM">
+		<colour name="Sun">255, 244, 222</colour>
+		<colour name="Amb">98, 192, 255</colour>
+		<colour name="Spec">255, 255, 255</colour>
+		<float name="Azim">0</float>
+		<float name="Elev">60</float>
+		<float name="Brightness">1</float>
+		<float name="SunAmbRatio">0.8</float>
+		<bool name="UseWM">false</bool>
+		<bool name="ShadowFlag">true</bool>
+		<bool name="SpecularFlag">true</bool>
+		<bool name="RecalcShadowFlag">false</bool>
+		<bool name="BumpMapping">false</bool>
+		<bool name="MosaicFlag">false</bool>
+		<int name="LM_in_HF">1</int>
+	</varlist>
+	<varlist name="TX">
+		<bool name="UseLM">true</bool>
+		<bool name="UseTX">true</bool>
+		<bool name="UseStrata">true</bool>
+		<int name="TX_in_HF">1</int>
+		<bool name="MosaicFlag">false</bool>
+		<int name="MosaicSize">512</int>
+		<int name="MaxRadAA">2</int>
+	</varlist>
+	<int name="SettingsVersion">2540</int>
+</varlist>

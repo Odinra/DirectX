@@ -1,0 +1,41 @@
+#ifndef __mainH__
+#define __mainH__
+
+#include <d3dx9.h>
+class Camera
+{
+public:
+	enum CameraType { LANDOBJECT, AIRCRAFT };
+
+	Camera();
+	Camera(CameraType cameraType);
+	~Camera();
+
+	void strafe(float units); // left/right
+	void fly(float units);    // up/down
+	void walk(float units);   // forward/backward
+	
+	void pitch(float angle); // rotate on right vector
+	void yaw(float angle);   // rotate on up vector
+	void roll(float angle);  // rotate on look vector
+
+	void getViewMatrix(D3DXMATRIX* V); 
+	void setCameraType(CameraType cameraType); 
+	void getPosition(D3DXVECTOR3* pos); 
+	void setPosition(D3DXVECTOR3* pos); 
+
+	void getRight(D3DXVECTOR3* right);
+	void getUp(D3DXVECTOR3* up);
+	void getLook(D3DXVECTOR3* look);
+	void checkcoll();
+	void checkobj(float &x, float &y, float &z, int &ct, bool &beep);
+	D3DXVECTOR3 GetPosition();
+	D3DXVECTOR3 GetLook();
+private:
+	CameraType  _cameraType;
+	D3DXVECTOR3 _right;
+	D3DXVECTOR3 _up;
+	D3DXVECTOR3 _look;
+	D3DXVECTOR3 _pos;
+};
+#endif

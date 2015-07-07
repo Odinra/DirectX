@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0302201C-4951-40ED-BA9B-29A3D0C61F02}</ProjectGuid>
+    <RootNamespace>G305</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="AButt.png" />
+    <Image Include="Back.jpg" />
+    <Image Include="barell.tga" />
+    <Image Include="barell02.tga" />
+    <Image Include="barell03.tga" />
+    <Image Include="barell_n.tga" />
+    <Image Include="Buttons.png" />
+    <Image Include="Down.jpg" />
+    <Image Include="Faces.jpg" />
+    <Image Include="Front.jpg" />
+    <Image Include="Ground.jpg" />
+    <Image Include="HMTex.jpg" />
+    <Image Include="Left.jpg" />
+    <Image Include="Map.png" />
+    <Image Include="planks01.jpg" />
+    <Image Include="planks02.jpg" />
+    <Image Include="Right.jpg" />
+    <Image Include="Space.png" />
+    <Image Include="SQTR.jpg" />
+    <Image Include="SqTr.png" />
+    <Image Include="SQTR_LM.jpg" />
+    <Image Include="SQTR_SH.png" />
+    <Image Include="SQTR_SpecLM.png" />
+    <Image Include="SQTR_TN.png" />
+    <Image Include="SQTR_TX.jpg" />
+    <Image Include="SquareTrack.jpg" />
+    <Image Include="ton2.jpg" />
+    <Image Include="track.png" />
+    <Image Include="Up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio.cpp" />
+    <ClCompile Include="base.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="create.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="skybox.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="xFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="skybox.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="xFile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Faces.psd" />
+    <None Include="Faces.raw" />
+    <None Include="HM - Copy.raw" />
+    <None Include="SQTR summary.html" />
+    <None Include="SQTR.proj" />
+    <None Include="SQTR.raw" />
+    <None Include="SQTR_AM.amf.gz" />
+    <None Include="SQTR_HF.hfz" />
+    <None Include="SquareTrack.raw" />
+    <None Include="track.raw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="SQTR.def.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
