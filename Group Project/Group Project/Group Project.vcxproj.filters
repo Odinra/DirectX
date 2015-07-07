@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1stBanner.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="2ndBanner.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CDLabel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Count1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Count2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Count3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CountGO.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Credits.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Credits1280.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Credits1366.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Down.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FastestTimes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="FastestTimes1280.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Finish.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Ground.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Map.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Selector.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Selector1366.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SelectorTool.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SQTR.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Things.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Things2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TitleScreen1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TitleScreen2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TitleScreen1280.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TitleScreen1366.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Up.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fpuMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadXFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingMechanics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveXFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fpuMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadXFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RacingMechanics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveXFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car.blend" />
+    <None Include="Car.x" />
+    <None Include="FastestTimes.x" />
+    <None Include="SQTR.raw" />
+  </ItemGroup>
+</Project>
